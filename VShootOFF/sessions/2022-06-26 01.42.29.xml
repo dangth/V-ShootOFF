@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session>
+	<camera name="Default">
+		<shot timestamp="6535" color="RED" x="428.136364" y="197.500000" shotTimestamp="23316" markerRadius="4" isMalfunction="false" isReload="false" targetIndex="-1" hitRegionIndex="-1" />
+		<shot timestamp="11037" color="RED" x="427.500000" y="198.173913" shotTimestamp="27880" markerRadius="4" isMalfunction="false" isReload="false" targetIndex="-1" hitRegionIndex="-1" />
+	</camera>
+</session>

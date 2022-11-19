@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>D:\PROJECTS\java-projects\ShootOFF2\VShootOFF\VShootOFF-4.0-SNAPSHOT.jar</jar>
+  <outfile>D:\PROJECTS\java-projects\ShootOFF2\VShootOFF\VShootOFF-4.0.exe</outfile>
+  <errTitle>This application needs java 1.8 or higher. Please install java first</errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>high</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>true</restartOnCrash>
+  <manifest></manifest>
+  <icon>D:\PROJECTS\java-projects\ShootOFF2\VShootOFF\logo.ico</icon>
+  <singleInstance>
+    <mutexName>VShootOFF-v4.0</mutexName>
+    <windowTitle>Việt Nam ShootOFF Ver4.0</windowTitle>
+  </singleInstance>
+  <classPath>
+    <mainClass>com.shootoff.Main</mainClass>
+    <cp>libs/annotations-3.0.0.jar</cp>
+    <cp>libs/log4j-1.2.16.jar</cp>
+    <cp>libs/slf4j-api-1.7.22.jar</cp>
+    <cp>libs/logback-core-1.2.10.jar</cp>
+    <cp>libs/logback-classic-1.2.10.jar</cp>
+    <cp>libs/bridj-0.7.0.jar</cp>
+    <cp>libs/dx-1.7.jar</cp>
+    <cp>libs/webcam-capture-0.3.12.jar</cp>
+    <cp>libs/webcam-capture-driver-ipcam-0.3.12.jar</cp>
+    <cp>libs/webcam-capture-driver-v4l4j-0.3.12.jar</cp>
+    <cp>libs/v4l4j-0.9.1-r507.jar</cp>
+    <cp>libs/commons-cli-1.5.0.jar</cp>
+    <cp>libs/httpclient-4.5.13.jar</cp>
+    <cp>libs/httpcore-4.4.13.jar</cp>
+    <cp>libs/commons-logging-1.2.jar</cp>
+    <cp>libs/commons-codec-1.11.jar</cp>
+    <cp>libs/httpmime-4.5.13.jar</cp>
+    <cp>libs/marytts-runtime-5.2.1.jar</cp>
+    <cp>libs/marytts-common-5.2.1.jar</cp>
+    <cp>libs/log4j-1.2-api-2.17.2.jar</cp>
+    <cp>libs/groovy-all-2.4.5.jar</cp>
+    <cp>libs/marytts-signalproc-5.2.1.jar</cp>
+    <cp>libs/jama-1.0.3.jar</cp>
+    <cp>libs/swing-layout-1.0.3.jar</cp>
+    <cp>libs/icu4j-54.1.1.jar</cp>
+    <cp>libs/commons-lang-2.6.jar</cp>
+    <cp>libs/commons-collections-3.2.2.jar</cp>
+    <cp>libs/emotionml-checker-java-1.2.2.jar</cp>
+    <cp>libs/guava-14.0.1.jar</cp>
+    <cp>libs/trove4j-2.0.2.jar</cp>
+    <cp>libs/httpcore-nio-4.1.jar</cp>
+    <cp>libs/opennlp-maxent-3.0.3.jar</cp>
+    <cp>libs/opennlp-tools-1.5.3.jar</cp>
+    <cp>libs/jwnl-1.3.3.jar</cp>
+    <cp>libs/hsqldb-2.0.0.jar</cp>
+    <cp>libs/marytts-lang-en-5.2.1.jar</cp>
+    <cp>libs/voice-cmu-slt-hsmm-5.2.1.jar</cp>
+    <cp>libs/xuggle-xuggler-5.4.jar</cp>
+    <cp>libs/json-simple-1.1.1.jar</cp>
+    <cp>libs/core-1.3.10.jar</cp>
+    <cp>libs/core-citation-1.3.10.jar</cp>
+    <cp>libs/core-aop-support-1.3.10.jar</cp>
+    <cp>libs/javassist-3.12.1.GA.jar</cp>
+    <cp>libs/jbibtex-1.0.2.jar</cp>
+    <cp>libs/colt-1.2.0.jar</cp>
+    <cp>libs/concurrent-1.3.4.jar</cp>
+    <cp>libs/log4j-core-2.11.0.jar</cp>
+    <cp>libs/log4j-api-2.11.0.jar</cp>
+    <cp>libs/commons-io-2.6.jar</cp>
+    <cp>libs/commons-vfs2-2.0.jar</cp>
+    <cp>libs/maven-scm-api-1.4.jar</cp>
+    <cp>libs/plexus-utils-1.5.6.jar</cp>
+    <cp>libs/maven-scm-provider-svnexe-1.4.jar</cp>
+    <cp>libs/maven-scm-provider-svn-commons-1.4.jar</cp>
+    <cp>libs/regexp-1.3.jar</cp>
+    <cp>libs/kryo-2.21.jar</cp>
+    <cp>libs/reflectasm-1.07-shaded.jar</cp>
+    <cp>libs/asm-4.0.jar</cp>
+    <cp>libs/minlog-1.2.jar</cp>
+    <cp>libs/objenesis-1.2.jar</cp>
+    <cp>libs/jal-20031117.jar</cp>
+    <cp>libs/ant-1.8.4.jar</cp>
+    <cp>libs/ant-launcher-1.8.4.jar</cp>
+    <cp>libs/cloning-1.9.10.jar</cp>
+    <cp>libs/opencv-2.4.13-0.jar</cp>
+    <cp>libs/oshi-core-3.4.0.jar</cp>
+    <cp>libs/jna-platform-4.2.2.jar</cp>
+    <cp>libs/jna-4.2.2.jar</cp>
+    <cp>libs/jsoup-1.15.1.jar</cp>
+    <cp>libs/bluecove-2.1.0.jar</cp>
+    <cp>libs/bluecove-gpl-2.1.0.jar</cp>
+    <cp>libs/core-3.3.0.jar</cp>
+    <cp>libs/gson-2.8.0.jar</cp>
+  </classPath>
+  <jre>
+    <path>.\jre</path>
+    <bundledJre64Bit>true</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.8.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+    <initialHeapSize>512</initialHeapSize>
+    <maxHeapSize>8096</maxHeapSize>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.0.0.0</fileVersion>
+    <txtFileVersion>1.0.0.0</txtFileVersion>
+    <fileDescription>Viet Nam ShootOFF Ver 4.0</fileDescription>
+    <copyright>dangth8@viettel.com.vn</copyright>
+    <productVersion>4.0.0.0</productVersion>
+    <txtProductVersion>4.0.0.0</txtProductVersion>
+    <productName>VShootOFF</productName>
+    <companyName>BQP - VN</companyName>
+    <internalName>VShootOFF</internalName>
+    <originalFilename>VShootOFF.exe</originalFilename>
+    <trademarks></trademarks>
+    <language>ENGLISH_US</language>
+  </versionInfo>
+  <messages>
+    <startupErr>An error occurred while starting the application.</startupErr>
+    <bundledJreErr>This application requires a Java Runtime Environment.</bundledJreErr>
+    <jreVersionErr>This application requires a Java Runtime Environment</jreVersionErr>
+    <launcherErr>The registry refers to a nonexistent Java Runtime Environment installation or the runtime is corrupted.</launcherErr>
+    <instanceAlreadyExistsMsg>An application instance is already running.</instanceAlreadyExistsMsg>
+  </messages>
+</launch4jConfig>
